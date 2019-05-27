@@ -1,0 +1,24 @@
+/* 
+    Theme Name: SwedishSummer
+    Version:    0.0.1
+    Author: Moitrayee Choudhury
+    Author URI: http://moitrayee_choudhury.surge.sh/
+    Description: This is my first ever WordPress website
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags:   Responsive, Two-column,flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets,  sticky-post, 
+*/
+
+#banner {
+    height: 97.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2) url('http://localhost/wordpress/wp-content/img/img1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+}
